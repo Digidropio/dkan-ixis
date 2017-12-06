@@ -1,0 +1,38 @@
+name        = Insight
+description = A Radix based subtheme built for DKAN.
+screenshot  = screenshot.png
+core = 7.x
+
+; Base - Radix
+base theme  = nuboot_radix
+
+; Regions
+regions[header] = 'Header'
+regions[highlighted] = 'Highlighted'
+regions[preface_first] = 'Preface First'
+regions[preface_second] = 'Preface Second'
+regions[help] = 'Help'
+regions[content] = 'Content'
+regions[sidebar_first] = 'Primary'
+regions[sidebar_second] = 'Secondary'
+regions[postscript_first] = 'Postscript First'
+regions[postscript_second] = 'Postscript Second'
+regions[bottom_content] = Bottom Content
+regions[footer_first] = Footer First
+regions[footer_second] = Footer Second
+regions[footer_third] = Footer Third
+regions[footer] = 'Footer'
+regions[page_top] = 'Page top'
+regions[page_bottom] = 'Page bottom'
+
+; Default Theme Settings
+settings[toggle_logo] = 1
+settings[toggle_name] = 0
+settings[toggle_slogan] = 0
+settings[toggle_node_user_picture] = 1
+settings[toggle_comment_user_picture] = 1
+settings[toggle_comment_user_verification] = 1
+settings[toggle_favicon] = 1
+settings[toggle_main_menu] = 1
+settings[toggle_secondary_menu] = 1
+settings[copyright][format] = 'html'
