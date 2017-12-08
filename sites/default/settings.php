@@ -250,7 +250,7 @@ $databases['default']['default'] = array(
   'username' => 'tigerdev_ciod',
   'password' => 'laDvcirNXfo)',
   'host' => '185.119.175.37',
-  'prefix' => 'main_',
+  'prefix' => '',
   'collation' => 'utf8_general_ci',
 );
 
