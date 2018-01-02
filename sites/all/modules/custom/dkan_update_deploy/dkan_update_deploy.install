@@ -1,0 +1,12 @@
+<?php
+/**
+ * @file
+ * DKAN update site functionality.
+ */
+
+/**
+ * Implements hook_install().
+ */
+function dkan_update_deploy_install() {
+  module_enable(array('visualization_entity_geojson_bundle'));
+}
