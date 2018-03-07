@@ -244,7 +244,15 @@
  *   );
  * @endcode
  */
-$databases = array();
+$databases['default']['default'] = array(
+  'driver' => 'mysql',
+  'database' => 'tigerdev_ciod',
+  'username' => 'tigerdev_ciod',
+  'password' => 'laDvcirNXfo)',
+  'host' => '185.119.175.37',
+  'prefix' => '',
+  'collation' => 'utf8_general_ci',
+);
 
 /**
  * Access control for update.php script.

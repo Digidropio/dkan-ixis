@@ -39,9 +39,11 @@ Icon
 Thumbs.db
 ._*
 
-# Vim generated files #
+# IDE Generated Files #
 ######################
 *.un~
+idea/*.xml
+.idea*
 
 # SASS #
 ##########
