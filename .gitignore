@@ -3,6 +3,7 @@
 /sites/*/private
 /files/*
 /cache
+/sites/default/settings.php
 
 # ** Only works in OSs that support newer versions of fnmatch (Bash 4+)
 /sites/default/**/files
@@ -42,8 +43,8 @@ Thumbs.db
 # IDE Generated Files #
 ######################
 *.un~
-idea/*.xml
-.idea*
+/.idea/*
+/.idea
 
 # SASS #
 ##########
