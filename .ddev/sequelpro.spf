@@ -19,7 +19,7 @@
             <key>password</key>
             <string>db</string>
             <key>port</key>
-            <integer>35452</integer>
+            <integer>32786</integer>
             <key>rdbms_type</key>
             <string>mysql</string>
             <key>sslCACertFileLocation</key>
