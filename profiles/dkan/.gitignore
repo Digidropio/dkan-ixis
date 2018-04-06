@@ -1,6 +1,5 @@
 docroot
 libraries
-modules/contrib
 modules/nucivic
 themes/contrib
 webroot
