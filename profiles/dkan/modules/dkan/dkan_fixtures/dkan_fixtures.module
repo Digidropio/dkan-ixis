@@ -7,8 +7,8 @@
 
 define('DKAN_FIXTURES_IS_EXPORTING', 'dkan_fixtures_is_exporting');
 
-//$odsm_path = drupal_get_path('module', 'open_data_schema_map');
-//require_once $odsm_path . '/open_data_schema_map.output.inc';
+$odsm_path = drupal_get_path('module', 'open_data_schema_map');
+require_once $odsm_path . '/open_data_schema_map.output.inc';
 
 /**
  * Implements hook_migrate_api().
