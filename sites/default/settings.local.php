@@ -20,7 +20,7 @@ ini_set('session.gc_divisor', 100);
 ini_set('session.gc_maxlifetime', 200000);
 ini_set('session.cookie_lifetime', 2000000);
 
-$drupal_hash_salt = 'UGnUcZEOpEUlxHBTwjmFnGTQKeYzLYZKoBkcLeNIByUHVWkqxBcrDhmHoKloprsJ';
+$drupal_hash_salt = 'UtwQlLLjbxcALVwpPNKYKepRHZBxseHRLisMxGXCOQCMClEdHlbEpohaOWRHcmLL';
 
 // This is super ugly but it determines whether or not drush should include a custom settings file which allows
 // it to work both within a docker container and natively on the host system.
